@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+.logo span {
+  color: #facc15;
+}
+
+.nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #f8fafc;
+  transition: color 0.3s ease;
+}
+.nav a:hover,
+.nav a.active {
+  color: #38bdf8;
+}
+.nav .btn {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.nav .btn:hover {
+  background: #facc15;
+  color: #0f172a;
+}
+
+.intro {
+  text-align: center;
+  padding: 100px 20px;
+}
+.intro h1 {
+  font-size: 3em;
+  color: #38bdf8;
+}
+.intro h1 span {
+  color: #facc15;
+}
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.cta-btn:hover {
+  background: #facc15;
+}
+
+.content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  line-height: 1.8;
+}
+.content h1 {
+  color: #facc15;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: #1e293b;
+  color: #94a3b8;
+}
